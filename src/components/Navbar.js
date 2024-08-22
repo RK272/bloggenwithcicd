@@ -23,6 +23,9 @@ const Navbar = () => {
           <NavLink to="/signup">
             <p>signup</p>
           </NavLink>
+          <NavLink to="/generate">
+            <p>Generate</p>
+          </NavLink>
           
           
          

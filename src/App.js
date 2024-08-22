@@ -9,6 +9,7 @@ import { Route, Routes, useLocation, useSearchParams } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Login from './Pages/Login';
 import Signup from './Pages/Signup'
+import Generate from './Pages/Generate';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 function App() {
@@ -44,6 +45,7 @@ function App() {
                 <Route path="/categories/:category" element={<CategoryPage/>}/>
                 <Route path="/login" element={<Login/>}/>
                 <Route path="/signup" element={<Signup/>}/>
+                <Route path="/generate" element={<Generate/>}/>
             
 
              
