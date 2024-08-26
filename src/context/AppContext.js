@@ -1,6 +1,6 @@
 import { createContext, useState, useEffect } from 'react';
 
-const baseUrl = "http://localhost:8000/essay"; // FastAPI URL
+const baseUrl = "http://34.207.70.139:8000/essay"; // FastAPI URL
 
 export const AppContext = createContext();
 
