@@ -1,4 +1,4 @@
-import image7 from './7.jpg';
+
 import image2 from './2.jpg';
 
 function App() {
